@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+  
+  <!-- FIREBASE LINK -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+  <script>
+    
+    var firebaseConfig = {
+      apiKey: "AIzaSyBpll4xYvhrSTDdC_DOi_RZbHSvCzGKYqA",
+      authDomain: "virtual-pet-a6415.firebaseapp.com",
+      databaseURL: "https://virtual-pet-a6415-default-rtdb.firebaseio.com",
+      projectId: "virtual-pet-a6415",
+      storageBucket: "virtual-pet-a6415.appspot.com",
+      messagingSenderId: "901481901148",
+      appId: "1:901481901148:web:600368377d26db70de0a99"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+  </script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <meta charset="utf-8">
+  
+  <script src="js/Food.js"></script>
+
+</head>
+  
+  <body>
+      
+    <script src="sketch.js"></script>
+
+  </body>
+
+</html>

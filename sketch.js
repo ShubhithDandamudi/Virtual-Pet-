@@ -19,7 +19,7 @@ function preload(){
   
   sadDog = loadImage("Images/Dog.png");
 
-  happyDog = loadImage("Images/happy dog.png");
+  happyDog = loadImage("Images/happydog.png");
 
   milkImage = loadImage("Images/Milk.png");
 

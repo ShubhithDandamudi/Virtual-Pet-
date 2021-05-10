@@ -17,11 +17,11 @@ var lastFed;
 
 function preload(){
   
-  sadDog = loadImage("images/Dog.png");
+  sadDog = loadImage("Images/Dog.png");
 
-  happyDog = loadImage("images/happy dog.png");
+  happyDog = loadImage("Images/happy dog.png");
 
-  milkImage = loadImage("images/Milk.png");
+  milkImage = loadImage("Images/Milk.png");
 
 }
 
